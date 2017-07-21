@@ -28,8 +28,8 @@ You will see follow lead data has been pushed:
 Here primary key is 'email' so if you push any updated information for the same email , script will update the lead info in ZohoCRM Lead. 
 
 Example Updated Phone Number: 
-
-#Lead Data 
+```php
+# Lead Data 
 
 $leadData = array(
 "fName"=>"John",
@@ -39,7 +39,7 @@ $leadData = array(
 "phone"=>"666-444-1112",
 "leadOwner"=>"Mr.Brian May",
 );
-
+```
 You will see this lead phone number has been updated at ZohoCRM Lead https://crm.zoho.com/crm/ShowTab.do?module=Leads 
 
 You can push lead data dynamically by using this script , just push dynamic data into $leadData array. 
