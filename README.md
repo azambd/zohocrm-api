@@ -2,11 +2,11 @@
 This is very simple PHP script for ZOHOCRM API Lead Data Insertion and Update is possible by using this script.  I am making ApeWare's [ https://github.com/ApeWare ] ZOHOCRM API Class to simple Non OOP PHP
 
 Generate Your Token: 
-Edit this URL ```html https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCRM/crmapi&DISPLAY_NAME=ProjectName ```
+Edit this URL ``` https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCRM/crmapi&DISPLAY_NAME=ProjectName ```
 
 and SET your project name DISPLAY_NAME=ProjectXYZ 
 
-Then the URL will be like this ```html https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCRM/crmapi&DISPLAY_NAME=ProjectXYZ ```
+Then the URL will be like this ``` https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoCRM/crmapi&DISPLAY_NAME=ProjectXYZ ```
 
 Login to ZOHOCRM and click above URL to generate AUTHTOKEN
 
