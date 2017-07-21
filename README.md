@@ -13,7 +13,10 @@ Login to ZOHOCRM and click above URL to generate AUTHTOKEN
 Example of How to use this script: 
 
 Copy your AUTHTOKEN, open "zoho-crm-api-simple-script.php" script and paste it at line 
-$authtoken = 'PUT YOUR OWN TOKEN'; and Save the file.
+```php
+$authtoken = 'PUT YOUR OWN TOKEN'; 
+```
+and Save the file.
 
 Execute this script at your browser and check https://crm.zoho.com/crm/ShowTab.do?module=Leads 
 
